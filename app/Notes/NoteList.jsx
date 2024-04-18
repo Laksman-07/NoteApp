@@ -69,7 +69,7 @@ export default function NoteList() {
       {notes.map((note) => (
           
         <div className='flex justify-between card my-5 ' key={note.id}>
-            <div className='min-w-40'>
+            <div className='min-w-[55%]'>
               <div className='mb-5 font-semibold '>
                 {note.title}
               </div>

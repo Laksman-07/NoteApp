@@ -6,12 +6,12 @@ export default function Navbar() {
     <main>
     <div className='grid sm:grid-cols-12 md:grid-cols-2 text-cyan-950 text-center bg-slate-400 border-4 m-2 p-2'>
     <Link href="/">
-      <div className='m-2'>        
+      <div className='m-2 font-bold'>        
          DASHBOARD  
         </div>
     </Link>  
     <Link href="/Notes">
-      <div className='m-2'>
+      <div className='m-2 font-bold'>
          NOTES 
       </div>
     </Link>
