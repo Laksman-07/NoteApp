@@ -76,8 +76,8 @@ export default function NoteList() {
               <div>
                 {note.body.slice(0, 200)}
               </div>
-              <div className='{note.priority === "High"}'>
-                Priority: {note.priority}
+              <div>
+                Priority: <span className='font-medium'> {note.priority}</span>
               </div>
             </div>
 

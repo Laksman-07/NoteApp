@@ -101,7 +101,7 @@ export default function AddNote({edit=false,note}) {
       </label>
       {edit? 
       <button className='btn-primary ' onClick={()=>handleSave(note.id)}> Save </button>:
-      <button className='btn-primary ' onClick={handleSubmit}> Add Ticket </button>
+      <button className='btn-primary ' onClick={handleSubmit}> Add Note </button>
       
       }
       
